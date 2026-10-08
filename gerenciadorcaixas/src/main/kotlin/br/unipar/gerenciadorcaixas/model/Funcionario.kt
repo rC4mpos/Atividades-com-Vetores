@@ -10,7 +10,7 @@ import jakarta.persistence.Id
 import java.math.BigDecimal
 
 @Entity
-data class Funcionario(
+class Funcionario(
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     val id: Long? = null,

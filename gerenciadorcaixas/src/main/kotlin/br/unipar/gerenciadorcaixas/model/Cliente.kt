@@ -8,7 +8,7 @@ import jakarta.persistence.Id
 import java.math.BigDecimal
 
 @Entity
-data class Cliente(
+class Cliente(
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     val id: Long? = null,

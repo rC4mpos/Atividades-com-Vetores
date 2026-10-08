@@ -9,7 +9,7 @@ import java.math.BigDecimal
 import java.time.LocalDate
 
 @Entity
-data class Servico(
+class Servico(
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     val id: Long? = null,

@@ -12,7 +12,7 @@ import jakarta.persistence.Id
 import java.math.BigDecimal
 
 @Entity
-data class Instalador(
+class Instalador(
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     val id: Long? = null,

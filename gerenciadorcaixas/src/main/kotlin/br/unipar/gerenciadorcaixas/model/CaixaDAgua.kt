@@ -12,7 +12,7 @@ import jakarta.persistence.Id
 import java.math.BigDecimal
 
 @Entity
-data class CaixaDAgua(
+class CaixaDAgua(
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     val id: Long? = null,

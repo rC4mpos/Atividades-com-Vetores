@@ -7,7 +7,7 @@ import jakarta.persistence.Id
 import java.math.BigDecimal
 
 @Entity
-data class Caixa(
+class Caixa(
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     val id: Long? = null,
